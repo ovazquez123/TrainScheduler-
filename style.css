@@ -1,0 +1,26 @@
+body {
+	background: url(../assets/city.jpg);
+	background-attachment: fixed;
+}
+
+.jumbotron {
+	margin-top: 2%;
+	background-image: url("../assets/fs.jpg");
+	background-width: 100%;
+	background-size: cover;
+	background-position: center; 
+}
+
+.jumbotron h1 i {
+	font-size: 2em;
+}
+
+.jumbotron h1 i,
+.jumbotron p {
+	color: white;
+	text-shadow:
+		-2px -2px 0 #000,  
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
+}
